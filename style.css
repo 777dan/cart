@@ -7,8 +7,10 @@
     margin: 10px;
   }
   #cart_content {
-    margin-top: 10px;
+    margin-top: 16px;
+    margin-bottom: 32px;
     padding: 5px;
+    background-color: #f1eeaa;
     border: 1px solid #060;
   }
   .item_box {
@@ -25,4 +27,17 @@
   .shopping_list th {
     padding: 10px;
     border: 1px solid #aaaaaa;
+  }
+
+  .good-img {
+    width: 50px;
+  }
+
+  .add_item,
+  .del_item {
+    background-color: #e8b182;
+    border: 1px solid #cc8a26;
+    cursor: pointer;
+    margin: 0;
+    padding: 8px;
   }

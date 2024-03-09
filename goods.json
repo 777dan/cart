@@ -1,14 +1,20 @@
 [
     {
         "name": "Xiaomi Redmi 9",
-        "price": 300
+        "price": 300,
+        "image": "./images/xiaomi-redmi-9.png",
+        "promotion": "Yes"
     },
     {
         "name": "Samsung Galaxy M21",
-        "price": 120
+        "price": 120,
+        "image": "./images/samsung-galaxy-m21.png",
+        "promotion": "No"
     },
     {
         "name": "Apple iPhone 12",
-        "price": 200
+        "price": 200,
+        "image": "./images/apple-iphone-12.png",
+        "promotion": "No"
     }
 ]

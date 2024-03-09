@@ -14,9 +14,11 @@ function loadGoods() {
             for (let i = 0; i < goods.length; i++) {
                 wrapper.innerHTML += `<div class="item_box">
 <h3 class="item_title">${goods[i].name}</h3>
-<p>Цена: <span class="item_price">${goods[i].price}</span>$</p>
-<button class="add_item" data-id="${i}">+</button>
-<button class="del_item" data-id="${i}">-</button>
+<p>Price: <span class="item_price">${goods[i].price}</span>$</p>
+<p>Promotion: ${goods[i].promotion}</p>
+<div><img class="good-img" src=${goods[i].image} /></div>
+<button class="add_item" data-id="${i}">&#43;</button>
+<button class="del_item" data-id="${i}">&#8722;</button>
 </div>`;
             }
         }
